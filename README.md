@@ -42,7 +42,7 @@ This repository contains a basic forum application with user authentication, pub
     * Before deployment into production, check Flask-Limiter documentation to set up the storage_uri for limiter. Using “memory://“ is not recommended.
 2. Configure Socket Connection:
     * In forum.html, modify the line:
-        * Change "/" to "was://[insert domain here]" to connect to your server's domain.
+        * Change io.connect("/") to io.connect("was://[insert domain here]") to connect to your server's domain. 
 3. Cloud Service Provider Setup:
     * Choose a cloud service provider (e.g., AWS, Google Cloud, DigitalOcean).
     * Set up a virtual private server (VPS) instance.
