@@ -1,0 +1,8 @@
+flask
+pymongo
+bcrypt
+jinja2
+Flask-SocketIO
+eventlet
+APScheduler
+Flask-Limiter[mongodb]
